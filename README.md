@@ -1,4 +1,4 @@
-# used-item-market-api
+# used-item-market-login
 Microservice version of used-item-market. Same functionality as original, but split into 3 microservices that communicate with each other.
 
 This repository contains the login service.
@@ -20,4 +20,8 @@ npm install
 npm start
 
 # Test
+Running npm test starts instance in test mode. Use api-service to run tests once conditions are met.
+
+[API Service](https://github.com/samijouppila/used-item-market-api)
+
 npm test
